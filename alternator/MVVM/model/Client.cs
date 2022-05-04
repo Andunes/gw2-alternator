@@ -184,7 +184,7 @@ public class Client : ObservableObject, IEquatable<Client>
         Dictionary<RunStage, List<string>> runStageFromModules = new()
         {
             { RunStage.Authenticated,          new List<string> { @"winnsi.dll" } },
-            { RunStage.CharacterSelectReached, new List<string> { @"userenv.dll", @"mscms.dll", @"coloradapterclient.dll", @"icm32.dll" } },
+            { RunStage.CharacterSelectReached, new List<string> { @"mscms.dll", @"coloradapterclient.dll", @"icm32.dll" } },
             { RunStage.Playing,                new List<string> { @"mmdevapi.dll" } },
         };
 
